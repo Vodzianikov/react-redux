@@ -1,0 +1,29 @@
+.counter {
+    text-align: center;
+
+    &-control {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+
+        .btn {
+            border: none;
+            outline: none;
+            padding: 10px 40px;
+            width: 150px;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            text-transform: capitalize;
+        }
+    }
+
+    &-output {
+        margin-top: 50px;
+        font-size: 30px;
+    }
+}
